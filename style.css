@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.filter-buttons {
+    margin-bottom: 20px;
+}
+.filter-buttons button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    display: none;
+}
+.show {
+    display: block !important;
+}
